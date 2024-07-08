@@ -1,0 +1,6 @@
+[submodule "network"]
+	path = network
+	url = ssh://git@github.com/korayakpinar/network.git
+[submodule "threshold-encryption"]
+	path = threshold-encryption
+	url = ssh://git@github.com/korayakpinar/threshold-encryption.git
