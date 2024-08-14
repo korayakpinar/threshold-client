@@ -1,0 +1,71 @@
+services:
+#  mempool:
+#    image: mempool
+#    ports:
+#      - "65534:65534"
+
+  threshold_node_1:
+    image: threshold-client
+    # network_mode: "bridge"
+    environment:
+      - BLSKEY=/app/key
+      - APIPORT=8081
+      - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
+      - PRIVKEY=/app/sk
+      - RPCURL=https://ethereum-holesky-rpc.publicnode.com/
+      - CONTRACTADDR=0xaBe41D49e732D52a92e8Ce2668d4E5b2975CE8fd
+      - PROXYPORT=8082
+      - COMITTEESIZE=4
+      - IPFSGATEWAYURL=https://moccasin-effective-harrier-491.mypinata.cloud
+      - BEARERTOKEN=/app/bearertoken
+    volumes:
+      - ./threshold-encryption/keys/1-bls:/app/key
+      - ./threshold-encryption/keys/1-ecdsa:/app/sk
+    ports:
+      - 8082:8082
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  threshold_node_2:
+    image: threshold-client
+    # network_mode: "bridge"
+    environment:
+      - BLSKEY=/app/key
+      - APIPORT=8081
+      - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
+      - PRIVKEY=/app/sk
+      - RPCURL=https://ethereum-holesky-rpc.publicnode.com/
+      - CONTRACTADDR=0xaBe41D49e732D52a92e8Ce2668d4E5b2975CE8fd
+      - PROXYPORT=8082
+      - COMITTEESIZE=4
+      - IPFSGATEWAYURL=https://moccasin-effective-harrier-491.mypinata.cloud
+      - BEARERTOKEN=/app/bearertoken
+    volumes:
+      - ./threshold-encryption/keys/2-bls:/app/key
+      - ./threshold-encryption/keys/2-ecdsa:/app/sk
+    ports:
+      - 8083:8082
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  threshold_node_3:
+    image: threshold-client
+    # network_mode: "bridge"
+    environment:
+      - BLSKEY=/app/key
+      - APIPORT=8081
+      - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
+      - PRIVKEY=/app/sk
+      - RPCURL=https://ethereum-holesky-rpc.publicnode.com/
+      - CONTRACTADDR=0xaBe41D49e732D52a92e8Ce2668d4E5b2975CE8fd
+      - PROXYPORT=8082
+      - COMITTEESIZE=4
+      - IPFSGATEWAYURL=https://moccasin-effective-harrier-491.mypinata.cloud
+      - BEARERTOKEN=/app/bearertoken
+    volumes:
+      - ./threshold-encryption/keys/3-bls:/app/key
+      - ./threshold-encryption/keys/3-ecdsa:/app/sk
+    ports:
+      - 8084:8082
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
