@@ -13,7 +13,7 @@ services:
       - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
       - PRIVKEY=/app/sk
       - RPCURL=https://ethereum-holesky-rpc.publicnode.com/
-      - CONTRACTADDR=0xaBe41D49e732D52a92e8Ce2668d4E5b2975CE8fd
+      - CONTRACTADDR=0xA6E24910b506b387365E8C685B255EB3bfbFb5DC
       - PROXYPORT=8082
       - COMITTEESIZE=4
       - IPFSGATEWAYURL=https://moccasin-effective-harrier-491.mypinata.cloud
@@ -35,7 +35,7 @@ services:
       - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
       - PRIVKEY=/app/sk
       - RPCURL=https://ethereum-holesky-rpc.publicnode.com/
-      - CONTRACTADDR=0xaBe41D49e732D52a92e8Ce2668d4E5b2975CE8fd
+      - CONTRACTADDR=0xA6E24910b506b387365E8C685B255EB3bfbFb5DC
       - PROXYPORT=8082
       - COMITTEESIZE=4
       - IPFSGATEWAYURL=https://moccasin-effective-harrier-491.mypinata.cloud
@@ -57,7 +57,7 @@ services:
       - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
       - PRIVKEY=/app/sk
       - RPCURL=https://ethereum-holesky-rpc.publicnode.com/
-      - CONTRACTADDR=0xaBe41D49e732D52a92e8Ce2668d4E5b2975CE8fd
+      - CONTRACTADDR=0xA6E24910b506b387365E8C685B255EB3bfbFb5DC
       - PROXYPORT=8082
       - COMITTEESIZE=4
       - IPFSGATEWAYURL=https://moccasin-effective-harrier-491.mypinata.cloud
