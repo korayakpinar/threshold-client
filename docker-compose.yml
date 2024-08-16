@@ -4,16 +4,10 @@ networks:
       name: bridge_proxy
 
 services:
-#  mempool:
-#    image: mempool
-#    ports:
-#      - "65534:65534"
-
   threshold_node_1:
     image: threshold-client
     networks:
       - my-custom-network
-    # network_mode: "bridge"
     environment:
       - BLSKEY=/app/key
       - APIPORT=8081
@@ -35,7 +29,6 @@ services:
 
   threshold_node_2:
     image: threshold-client
-    # network_mode: "bridge"
     networks:
       - my-custom-network
     environment:
@@ -59,7 +52,6 @@ services:
 
   threshold_node_3:
     image: threshold-client
-    # network_mode: "bridge"
     networks:
       - my-custom-network
     environment:
