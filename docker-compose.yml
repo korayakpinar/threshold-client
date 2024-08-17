@@ -4,12 +4,22 @@ networks:
       name: bridge_proxy
 
 services:
+  threshold_frontend:
+    image: threshold-frontend
+    # networks:
+    #  - my-custom-network
+    ports:
+      - "80:3000"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
   threshold_node_1:
     image: threshold-client
     networks:
       - my-custom-network
     environment:
       - BLSKEY=/app/key
+      - MEMPOOLURL=mempool
       - APIPORT=8081
       - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
       - PRIVKEY=/app/sk
@@ -33,6 +43,7 @@ services:
       - my-custom-network
     environment:
       - BLSKEY=/app/key
+      - MEMPOOLURL=mempool
       - APIPORT=8081
       - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
       - PRIVKEY=/app/sk
@@ -56,6 +67,7 @@ services:
       - my-custom-network
     environment:
       - BLSKEY=/app/key
+      - MEMPOOLURL=mempool
       - APIPORT=8081
       - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
       - PRIVKEY=/app/sk

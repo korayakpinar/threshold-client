@@ -11,6 +11,9 @@ docker-compose up -d
 cd ../network
 go build main.go
 
+cd ../threshold-frontend
+docker build -t threshold-frontend .
+
 cd ..
 docker build -t threshold-client .
 docker-compose up
