@@ -6,8 +6,6 @@ networks:
 services:
   threshold_frontend:
     image: threshold-frontend
-    # networks:
-    #  - my-custom-network
     ports:
       - "80:3000"
     extra_hosts:
@@ -34,8 +32,6 @@ services:
       - ./threshold-encryption/keys/1-ecdsa:/app/sk
     ports:
       - 8082:8082
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
 
   threshold_node_2:
     image: threshold-client
@@ -58,8 +54,6 @@ services:
       - ./threshold-encryption/keys/2-ecdsa:/app/sk
     ports:
       - 8083:8082
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
 
   threshold_node_3:
     image: threshold-client
@@ -82,5 +76,3 @@ services:
       - ./threshold-encryption/keys/3-ecdsa:/app/sk
     ports:
       - 8084:8082
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
