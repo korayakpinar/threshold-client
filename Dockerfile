@@ -5,7 +5,7 @@ RUN useradd -ms /bin/sh user
 WORKDIR /app
 
 COPY network/main /app/network
-COPY bearertoken /app/bearertoken
+# COPY bearertoken /app/bearertoken
 
 COPY threshold-encryption/target/release/silent-threshold /app/silent-threshold
 COPY threshold-encryption/transcript-512 /app/transcript-512
