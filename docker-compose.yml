@@ -8,25 +8,25 @@ services:
     image: threshold-frontend
     ports:
       - "80:3000"
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
 
   threshold_node_1:
     image: threshold-client
     networks:
       - my-custom-network
     environment:
-      - BLSKEY=/app/key
       - MEMPOOLURL=mempool
       - APIPORT=8081
+      - KEYSPATH=/app/keys
       - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
       - PRIVKEY=/app/sk
-      - RPCURL=https://ethereum-holesky-rpc.publicnode.com/
-      - CONTRACTADDR=0xA6E24910b506b387365E8C685B255EB3bfbFb5DC
+      - RPCURL=https://ethereum-holesky.core.chainstack.com/355803c4d8982d49b6487545f3457c62
+      - CONTRACTADDR=0x58d9Fc02Cc93cf9d3e3316a7D0fF61673AA7eE38
       - PROXYPORT=8082
-      - COMITTEESIZE=4
-      - IPFSGATEWAYURL=https://moccasin-effective-harrier-491.mypinata.cloud
-      - BEARERTOKEN=/app/bearertoken
+      - COMITTEESIZE=512
+      - NETWORKSIZE=16
+      - NETWORKINDEX=0
+      - IPFSGATEWAYURL=http://34.27.174.61
+      - ADMINKEY=cfe7b12d35c313168008efd31e188e465ccaab0a032a3d6a97c6c04a3d94872d
     volumes:
       - ./threshold-encryption/keys/1-bls:/app/key
       - ./threshold-encryption/keys/1-ecdsa:/app/sk
@@ -38,17 +38,19 @@ services:
     networks:
       - my-custom-network
     environment:
-      - BLSKEY=/app/key
       - MEMPOOLURL=mempool
       - APIPORT=8081
+      - KEYSPATH=/app/keys
       - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
       - PRIVKEY=/app/sk
-      - RPCURL=https://ethereum-holesky-rpc.publicnode.com/
-      - CONTRACTADDR=0xA6E24910b506b387365E8C685B255EB3bfbFb5DC
+      - RPCURL=https://ethereum-holesky.core.chainstack.com/355803c4d8982d49b6487545f3457c62
+      - CONTRACTADDR=0x58d9Fc02Cc93cf9d3e3316a7D0fF61673AA7eE38
       - PROXYPORT=8082
-      - COMITTEESIZE=4
-      - IPFSGATEWAYURL=https://moccasin-effective-harrier-491.mypinata.cloud
-      - BEARERTOKEN=/app/bearertoken
+      - COMITTEESIZE=512
+      - NETWORKSIZE=16
+      - NETWORKINDEX=1
+      - IPFSGATEWAYURL=http://34.27.174.61
+      - ADMINKEY=cfe7b12d35c313168008efd31e188e465ccaab0a032a3d6a97c6c04a3d94872d
     volumes:
       - ./threshold-encryption/keys/2-bls:/app/key
       - ./threshold-encryption/keys/2-ecdsa:/app/sk
@@ -60,19 +62,333 @@ services:
     networks:
       - my-custom-network
     environment:
-      - BLSKEY=/app/key
       - MEMPOOLURL=mempool
       - APIPORT=8081
+      - KEYSPATH=/app/keys
       - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
       - PRIVKEY=/app/sk
-      - RPCURL=https://ethereum-holesky-rpc.publicnode.com/
-      - CONTRACTADDR=0xA6E24910b506b387365E8C685B255EB3bfbFb5DC
+      - RPCURL=https://ethereum-holesky.core.chainstack.com/355803c4d8982d49b6487545f3457c62
+      - CONTRACTADDR=0x58d9Fc02Cc93cf9d3e3316a7D0fF61673AA7eE38
       - PROXYPORT=8082
-      - COMITTEESIZE=4
-      - IPFSGATEWAYURL=https://moccasin-effective-harrier-491.mypinata.cloud
-      - BEARERTOKEN=/app/bearertoken
+      - COMITTEESIZE=512
+      - NETWORKSIZE=16
+      - NETWORKINDEX=2
+      - IPFSGATEWAYURL=http://34.27.174.61
+      - ADMINKEY=cfe7b12d35c313168008efd31e188e465ccaab0a032a3d6a97c6c04a3d94872d
     volumes:
       - ./threshold-encryption/keys/3-bls:/app/key
       - ./threshold-encryption/keys/3-ecdsa:/app/sk
     ports:
       - 8084:8082
+
+  threshold_node_4:
+    image: threshold-client
+    networks:
+      - my-custom-network
+    environment:
+      - MEMPOOLURL=mempool
+      - APIPORT=8081
+      - KEYSPATH=/app/keys
+      - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
+      - PRIVKEY=/app/sk
+      - RPCURL=https://ethereum-holesky.core.chainstack.com/355803c4d8982d49b6487545f3457c62
+      - CONTRACTADDR=0x58d9Fc02Cc93cf9d3e3316a7D0fF61673AA7eE38
+      - PROXYPORT=8082
+      - COMITTEESIZE=512
+      - NETWORKSIZE=16
+      - NETWORKINDEX=3
+      - IPFSGATEWAYURL=http://34.27.174.61
+      - ADMINKEY=cfe7b12d35c313168008efd31e188e465ccaab0a032a3d6a97c6c04a3d94872d
+    volumes:
+      - ./threshold-encryption/keys/4-bls:/app/key
+      - ./threshold-encryption/keys/4-ecdsa:/app/sk
+    ports:
+      - 8085:8082
+
+  threshold_node_5:
+    image: threshold-client
+    networks:
+      - my-custom-network
+    environment:
+      - MEMPOOLURL=mempool
+      - APIPORT=8081
+      - KEYSPATH=/app/keys
+      - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
+      - PRIVKEY=/app/sk
+      - RPCURL=https://ethereum-holesky.core.chainstack.com/355803c4d8982d49b6487545f3457c62
+      - CONTRACTADDR=0x58d9Fc02Cc93cf9d3e3316a7D0fF61673AA7eE38
+      - PROXYPORT=8082
+      - COMITTEESIZE=512
+      - NETWORKSIZE=16
+      - NETWORKINDEX=4
+      - IPFSGATEWAYURL=http://34.27.174.61
+      - ADMINKEY=cfe7b12d35c313168008efd31e188e465ccaab0a032a3d6a97c6c04a3d94872d
+    volumes:
+      - ./threshold-encryption/keys/5-bls:/app/key
+      - ./threshold-encryption/keys/5-ecdsa:/app/sk
+    ports:
+      - 8086:8082
+
+  threshold_node_6:
+    image: threshold-client
+    networks:
+      - my-custom-network
+    environment:
+      - MEMPOOLURL=mempool
+      - APIPORT=8081
+      - KEYSPATH=/app/keys
+      - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
+      - PRIVKEY=/app/sk
+      - RPCURL=https://ethereum-holesky.core.chainstack.com/355803c4d8982d49b6487545f3457c62
+      - CONTRACTADDR=0x58d9Fc02Cc93cf9d3e3316a7D0fF61673AA7eE38
+      - PROXYPORT=8082
+      - COMITTEESIZE=512
+      - NETWORKSIZE=16
+      - NETWORKINDEX=5
+      - IPFSGATEWAYURL=http://34.27.174.61
+      - ADMINKEY=cfe7b12d35c313168008efd31e188e465ccaab0a032a3d6a97c6c04a3d94872d
+    volumes:
+      - ./threshold-encryption/keys/6-bls:/app/key
+      - ./threshold-encryption/keys/6-ecdsa:/app/sk
+    ports:
+      - 8087:8082
+
+  threshold_node_7:
+    image: threshold-client
+    networks:
+      - my-custom-network
+    environment:
+      - MEMPOOLURL=mempool
+      - APIPORT=8081
+      - KEYSPATH=/app/keys
+      - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
+      - PRIVKEY=/app/sk
+      - RPCURL=https://ethereum-holesky.core.chainstack.com/355803c4d8982d49b6487545f3457c62
+      - CONTRACTADDR=0x58d9Fc02Cc93cf9d3e3316a7D0fF61673AA7eE38
+      - PROXYPORT=8082
+      - COMITTEESIZE=512
+      - NETWORKSIZE=16
+      - NETWORKINDEX=6
+      - IPFSGATEWAYURL=http://34.27.174.61
+      - ADMINKEY=cfe7b12d35c313168008efd31e188e465ccaab0a032a3d6a97c6c04a3d94872d
+    volumes:
+      - ./threshold-encryption/keys/7-bls:/app/key
+      - ./threshold-encryption/keys/7-ecdsa:/app/sk
+    ports:
+      - 8088:8082
+
+  threshold_node_8:
+    image: threshold-client
+    networks:
+      - my-custom-network
+    environment:
+      - MEMPOOLURL=mempool
+      - APIPORT=8081
+      - KEYSPATH=/app/keys
+      - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
+      - PRIVKEY=/app/sk
+      - RPCURL=https://ethereum-holesky.core.chainstack.com/355803c4d8982d49b6487545f3457c62
+      - CONTRACTADDR=0x58d9Fc02Cc93cf9d3e3316a7D0fF61673AA7eE38
+      - PROXYPORT=8082
+      - COMITTEESIZE=512
+      - NETWORKSIZE=16
+      - NETWORKINDEX=7
+      - IPFSGATEWAYURL=http://34.27.174.61
+      - ADMINKEY=cfe7b12d35c313168008efd31e188e465ccaab0a032a3d6a97c6c04a3d94872d
+    volumes:
+      - ./threshold-encryption/keys/8-bls:/app/key
+      - ./threshold-encryption/keys/8-ecdsa:/app/sk
+    ports:
+      - 8089:8082
+
+  threshold_node_9:
+    image: threshold-client
+    networks:
+      - my-custom-network
+    environment:
+      - MEMPOOLURL=mempool
+      - APIPORT=8081
+      - KEYSPATH=/app/keys
+      - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
+      - PRIVKEY=/app/sk
+      - RPCURL=https://ethereum-holesky.core.chainstack.com/355803c4d8982d49b6487545f3457c62
+      - CONTRACTADDR=0x58d9Fc02Cc93cf9d3e3316a7D0fF61673AA7eE38
+      - PROXYPORT=8082
+      - COMITTEESIZE=512
+      - NETWORKSIZE=16
+      - NETWORKINDEX=8
+      - IPFSGATEWAYURL=http://34.27.174.61
+      - ADMINKEY=cfe7b12d35c313168008efd31e188e465ccaab0a032a3d6a97c6c04a3d94872d
+    volumes:
+      - ./threshold-encryption/keys/9-bls:/app/key
+      - ./threshold-encryption/keys/9-ecdsa:/app/sk
+    ports:
+      - 8090:8082
+
+  threshold_node_10:
+    image: threshold-client
+    networks:
+      - my-custom-network
+    environment:
+      - MEMPOOLURL=mempool
+      - APIPORT=8081
+      - KEYSPATH=/app/keys
+      - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
+      - PRIVKEY=/app/sk
+      - RPCURL=https://ethereum-holesky.core.chainstack.com/355803c4d8982d49b6487545f3457c62
+      - CONTRACTADDR=0x58d9Fc02Cc93cf9d3e3316a7D0fF61673AA7eE38
+      - PROXYPORT=8082
+      - COMITTEESIZE=512
+      - NETWORKSIZE=16
+      - NETWORKINDEX=9
+      - IPFSGATEWAYURL=http://34.27.174.61
+      - ADMINKEY=cfe7b12d35c313168008efd31e188e465ccaab0a032a3d6a97c6c04a3d94872d
+    volumes:
+      - ./threshold-encryption/keys/10-bls:/app/key
+      - ./threshold-encryption/keys/10-ecdsa:/app/sk
+    ports:
+      - 8091:8082
+
+  threshold_node_11:
+    image: threshold-client
+    networks:
+      - my-custom-network
+    environment:
+      - MEMPOOLURL=mempool
+      - APIPORT=8081
+      - KEYSPATH=/app/keys
+      - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
+      - PRIVKEY=/app/sk
+      - RPCURL=https://ethereum-holesky.core.chainstack.com/355803c4d8982d49b6487545f3457c62
+      - CONTRACTADDR=0x58d9Fc02Cc93cf9d3e3316a7D0fF61673AA7eE38
+      - PROXYPORT=8082
+      - COMITTEESIZE=512
+      - NETWORKSIZE=16
+      - NETWORKINDEX=10
+      - IPFSGATEWAYURL=http://34.27.174.61
+      - ADMINKEY=cfe7b12d35c313168008efd31e188e465ccaab0a032a3d6a97c6c04a3d94872d
+    volumes:
+      - ./threshold-encryption/keys/11-bls:/app/key
+      - ./threshold-encryption/keys/11-ecdsa:/app/sk
+    ports:
+      - 8092:8082
+
+  threshold_node_12:
+    image: threshold-client
+    networks:
+      - my-custom-network
+    environment:
+      - MEMPOOLURL=mempool
+      - APIPORT=8081
+      - KEYSPATH=/app/keys
+      - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
+      - PRIVKEY=/app/sk
+      - RPCURL=https://ethereum-holesky.core.chainstack.com/355803c4d8982d49b6487545f3457c62
+      - CONTRACTADDR=0x58d9Fc02Cc93cf9d3e3316a7D0fF61673AA7eE38
+      - PROXYPORT=8082
+      - COMITTEESIZE=512
+      - NETWORKSIZE=16
+      - NETWORKINDEX=11
+      - IPFSGATEWAYURL=http://34.27.174.61
+      - ADMINKEY=cfe7b12d35c313168008efd31e188e465ccaab0a032a3d6a97c6c04a3d94872d
+    volumes:
+      - ./threshold-encryption/keys/12-bls:/app/key
+      - ./threshold-encryption/keys/12-ecdsa:/app/sk
+    ports:
+      - 8093:8082
+
+  threshold_node_13:
+    image: threshold-client
+    networks:
+      - my-custom-network
+    environment:
+      - MEMPOOLURL=mempool
+      - APIPORT=8081
+      - KEYSPATH=/app/keys
+      - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
+      - PRIVKEY=/app/sk
+      - RPCURL=https://ethereum-holesky.core.chainstack.com/355803c4d8982d49b6487545f3457c62
+      - CONTRACTADDR=0x58d9Fc02Cc93cf9d3e3316a7D0fF61673AA7eE38
+      - PROXYPORT=8082
+      - COMITTEESIZE=512
+      - NETWORKSIZE=16
+      - NETWORKINDEX=12
+      - IPFSGATEWAYURL=http://34.27.174.61
+      - ADMINKEY=cfe7b12d35c313168008efd31e188e465ccaab0a032a3d6a97c6c04a3d94872d
+    volumes:
+      - ./threshold-encryption/keys/13-bls:/app/key
+      - ./threshold-encryption/keys/13-ecdsa:/app/sk
+    ports:
+      - 8094:8082
+
+  threshold_node_14:
+    image: threshold-client
+    networks:
+      - my-custom-network
+    environment:
+      - MEMPOOLURL=mempool
+      - APIPORT=8081
+      - KEYSPATH=/app/keys
+      - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
+      - PRIVKEY=/app/sk
+      - RPCURL=https://ethereum-holesky.core.chainstack.com/355803c4d8982d49b6487545f3457c62
+      - CONTRACTADDR=0x58d9Fc02Cc93cf9d3e3316a7D0fF61673AA7eE38
+      - PROXYPORT=8082
+      - COMITTEESIZE=512
+      - NETWORKSIZE=16
+      - NETWORKINDEX=13
+      - IPFSGATEWAYURL=http://34.27.174.61
+      - ADMINKEY=cfe7b12d35c313168008efd31e188e465ccaab0a032a3d6a97c6c04a3d94872d
+    volumes:
+      - ./threshold-encryption/keys/14-bls:/app/key
+      - ./threshold-encryption/keys/14-ecdsa:/app/sk
+    ports:
+      - 8095:8082
+
+  threshold_node_15:
+    image: threshold-client
+    networks:
+      - my-custom-network
+    environment:
+      - MEMPOOLURL=mempool
+      - APIPORT=8081
+      - KEYSPATH=/app/keys
+      - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
+      - PRIVKEY=/app/sk
+      - RPCURL=https://ethereum-holesky.core.chainstack.com/355803c4d8982d49b6487545f3457c62
+      - CONTRACTADDR=0x58d9Fc02Cc93cf9d3e3316a7D0fF61673AA7eE38
+      - PROXYPORT=8082
+      - COMITTEESIZE=512
+      - NETWORKSIZE=16
+      - NETWORKINDEX=14
+      - IPFSGATEWAYURL=http://34.27.174.61
+      - ADMINKEY=cfe7b12d35c313168008efd31e188e465ccaab0a032a3d6a97c6c04a3d94872d
+    volumes:
+      - ./threshold-encryption/keys/15-bls:/app/key
+      - ./threshold-encryption/keys/15-ecdsa:/app/sk
+    ports:
+      - 8096:8082
+
+  threshold_node_16:
+    image: threshold-client
+    networks:
+      - my-custom-network
+    environment:
+      - MEMPOOLURL=mempool
+      - APIPORT=8081
+      - KEYSPATH=/app/keys
+      - TOPICNAME=458005e1367b74db64262ef76cda4f631183651ecdd978c0e7dc02dd65d862f1
+      - PRIVKEY=/app/sk
+      - RPCURL=https://ethereum-holesky.core.chainstack.com/355803c4d8982d49b6487545f3457c62
+      - CONTRACTADDR=0x58d9Fc02Cc93cf9d3e3316a7D0fF61673AA7eE38
+      - PROXYPORT=8082
+      - COMITTEESIZE=512
+      - NETWORKSIZE=16
+      - NETWORKINDEX=15
+      - IPFSGATEWAYURL=http://34.27.174.61
+      - ADMINKEY=cfe7b12d35c313168008efd31e188e465ccaab0a032a3d6a97c6c04a3d94872d
+    volumes:
+      - ./threshold-encryption/keys/16-bls:/app/key
+      - ./threshold-encryption/keys/16-ecdsa:/app/sk
+    ports:
+      - 8097:8082

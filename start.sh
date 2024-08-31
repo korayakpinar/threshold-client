@@ -1,8 +1,8 @@
 #!/bin/bash
-/app/silent-threshold --bls-key $BLSKEY --api-port $APIPORT --mempool-url $MEMPOOLURL & 
+/app/silent-threshold --api-port $APIPORT --mempool-url $MEMPOOLURL & 
 sleep 2
-/app/network -topic $TOPICNAME -privKey $PRIVKEY -rpcURL $RPCURL \
+/app/network -topic $TOPICNAME -keys $KEYSPATH -rpcURL $RPCURL \
     -proxyPort $PROXYPORT -apiPort $APIPORT -contractAddr $CONTRACTADDR \
-    -committeeSize $COMITTEESIZE -ipfsGatewayURL $IPFSGATEWAYURL &
+    -committeeSize $COMITTEESIZE -networkSize $NETWORKSIZE -networkIndex $NETWORKINDEX -ipfsGatewayURL $IPFSGATEWAYURL -adminKey $ADMINKEY &
 
 wait
