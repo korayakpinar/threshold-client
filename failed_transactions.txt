@@ -1,0 +1,200 @@
+Failed transaction in iteration 24: {'code': -32000, 'message': 'nonce too low: next nonce 5, tx nonce 4'}
+Failed transaction in iteration 26: {'code': -32000, 'message': 'nonce too low: next nonce 5, tx nonce 4'}
+Failed transaction in iteration 61: {'code': -32000, 'message': 'nonce too low: next nonce 6, tx nonce 5'}
+Failed transaction in iteration 73: {'code': -32000, 'message': 'tx fee (1.19 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 74: {'code': -32000, 'message': 'tx fee (1.43 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 75: {'code': -32000, 'message': 'tx fee (1.71 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 76: {'code': -32000, 'message': 'tx fee (2.06 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 77: {'code': -32000, 'message': 'tx fee (2.47 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 78: {'code': -32000, 'message': 'tx fee (2.96 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 79: {'code': -32000, 'message': 'tx fee (3.55 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 80: {'code': -32000, 'message': 'tx fee (4.26 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 81: {'code': -32000, 'message': 'tx fee (5.11 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 82: {'code': -32000, 'message': 'tx fee (6.14 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 83: {'code': -32000, 'message': 'tx fee (7.36 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 84: {'code': -32000, 'message': 'tx fee (8.84 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 85: {'code': -32000, 'message': 'tx fee (10.60 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 86: {'code': -32000, 'message': 'tx fee (12.72 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 87: {'code': -32000, 'message': 'tx fee (15.27 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 88: {'code': -32000, 'message': 'tx fee (18.32 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 73: {'code': -32000, 'message': 'tx fee (1.19 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 74: {'code': -32000, 'message': 'tx fee (1.43 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 75: {'code': -32000, 'message': 'tx fee (1.71 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 76: {'code': -32000, 'message': 'tx fee (2.06 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 77: {'code': -32000, 'message': 'tx fee (2.47 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 74: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 75: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 76: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 77: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 78: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 79: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 80: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 74: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 75: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 76: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 77: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 78: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 128: {'code': -32000, 'message': 'tx fee (1.10 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 129: {'code': -32000, 'message': 'tx fee (1.23 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 130: {'code': -32000, 'message': 'tx fee (1.37 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 131: {'code': -32000, 'message': 'tx fee (1.52 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 132: {'code': -32000, 'message': 'tx fee (1.69 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 133: {'code': -32000, 'message': 'tx fee (1.88 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 134: {'code': -32000, 'message': 'tx fee (2.09 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 135: {'code': -32000, 'message': 'tx fee (2.32 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 136: {'code': -32000, 'message': 'tx fee (2.58 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 137: {'code': -32000, 'message': 'tx fee (2.87 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 138: {'code': -32000, 'message': 'tx fee (3.19 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 139: {'code': -32000, 'message': 'tx fee (3.55 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 129: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 130: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 131: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 131: {'code': -32000, 'message': 'nonce too low: next nonce 11, tx nonce 10'}
+Failed transaction in iteration 132: {'code': -32000, 'message': 'nonce too low: next nonce 11, tx nonce 10'}
+Failed transaction in iteration 129: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 130: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 128: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 129: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 130: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 129: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 130: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 131: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 128: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 128: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 129: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 130: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 131: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 132: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 134: {'code': -32000, 'message': 'tx fee (1.08 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 135: {'code': -32000, 'message': 'tx fee (1.19 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 136: {'code': -32000, 'message': 'tx fee (1.31 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 137: {'code': -32000, 'message': 'tx fee (1.45 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 138: {'code': -32000, 'message': 'tx fee (1.60 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 139: {'code': -32000, 'message': 'tx fee (1.76 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'tx fee (1.94 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 141: {'code': -32000, 'message': 'tx fee (2.14 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 142: {'code': -32000, 'message': 'tx fee (2.36 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 143: {'code': -32000, 'message': 'tx fee (2.60 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 144: {'code': -32000, 'message': 'tx fee (2.87 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 145: {'code': -32000, 'message': 'tx fee (3.17 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'tx fee (3.49 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 147: {'code': -32000, 'message': 'tx fee (3.85 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 148: {'code': -32000, 'message': 'tx fee (4.25 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 149: {'code': -32000, 'message': 'tx fee (4.69 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'tx fee (5.17 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 151: {'code': -32000, 'message': 'tx fee (5.70 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 152: {'code': -32000, 'message': 'tx fee (6.29 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 153: {'code': -32000, 'message': 'tx fee (6.94 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 154: {'code': -32000, 'message': 'tx fee (7.65 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 155: {'code': -32000, 'message': 'tx fee (8.44 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 156: {'code': -32000, 'message': 'tx fee (9.31 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 129: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 130: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 133: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 136: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 137: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 138: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 138: {'code': -32000, 'message': 'tx fee (1.60 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 138: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 139: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 139: {'code': -32000, 'message': 'tx fee (2.04 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 139: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'tx fee (2.11 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'tx fee (1.76 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'tx fee (1.39 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'tx fee (1.06 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'tx fee (1.16 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'tx fee (1.14 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'tx fee (1.04 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 140: {'code': -32000, 'message': 'tx fee (1.13 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 141: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 142: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 143: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 144: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 145: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'tx fee (3.39 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'tx fee (1.37 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'tx fee (1.59 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'tx fee (1.54 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'tx fee (1.35 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'tx fee (1.11 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 146: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 147: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 147: {'code': -32000, 'message': 'tx fee (1.47 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 148: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 149: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 149: {'code': -32000, 'message': 'tx fee (1.29 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 149: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 149: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'tx fee (1.04 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'tx fee (1.01 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'tx fee (1.17 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'tx fee (1.00 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'tx fee (1.00 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'tx fee (1.10 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'replacement transaction underpriced'}
+Failed transaction in iteration 150: {'code': -32000, 'message': 'nonce too low: next nonce 17, tx nonce 16'}
+Failed transaction in iteration 151: {'code': -32000, 'message': 'nonce too low: next nonce 17, tx nonce 16'}
+Failed transaction in iteration 152: {'code': -32000, 'message': 'insufficient funds for gas * price + value: balance 168890017427876000, tx cost 787290026372545000, overshot 618400008944669000'}
+Failed transaction in iteration 153: {'code': -32000, 'message': 'insufficient funds for gas * price + value: balance 168890017427876000, tx cost 855673619583856000, overshot 686783602155980000'}
+Failed transaction in iteration 154: {'code': -32000, 'message': 'insufficient funds for gas * price + value: balance 168890017427876000, tx cost 930073391649685000, overshot 761183374221809000'}
+Failed transaction in iteration 155: {'code': -32000, 'message': 'tx fee (1.00 ether) exceeds the configured cap (1.00 ether)'}
+Failed transaction in iteration 155: {'code': -32000, 'message': 'insufficient funds for gas * price + value: balance 168890017427876000, tx cost 549383653402069000, overshot 380493635974193000'}
+Failed transaction in iteration 156: {'code': -32000, 'message': 'insufficient funds for gas * price + value: balance 168890017427876000, tx cost 594485408875522000, overshot 425595391447646000'}
+Failed transaction in iteration 157: {'code': -32000, 'message': 'insufficient funds for gas * price + value: balance 168890017427876000, tx cost 643358447245594000, overshot 474468429817718000'}
+Failed transaction in iteration 158: {'code': -32000, 'message': 'insufficient funds for gas * price + value: balance 168890017427876000, tx cost 696318112661020000, overshot 527428095233144000'}
+Failed transaction in iteration 159: {'code': -32000, 'message': 'insufficient funds for gas * price + value: balance 168890017427876000, tx cost 753706117467985000, overshot 584816100040109000'}
+Failed transaction in iteration 160: {'code': -32000, 'message': 'insufficient funds for gas * price + value: balance 168890017427876000, tx cost 815892747045274000, overshot 647002729617398000'}
+Failed transaction in iteration 161: {'code': -32000, 'message': 'insufficient funds for gas * price + value: balance 168890017427876000, tx cost 883279249001383000, overshot 714389231573507000'}
+Failed transaction in iteration 162: {'code': -32000, 'message': 'insufficient funds for gas * price + value: balance 168890017427876000, tx cost 956300422149817000, overshot 787410404721941000'}
+Failed transaction in iteration 163: {'code': -32000, 'message': 'tx fee (1.03 ether) exceeds the configured cap (1.00 ether)'}
